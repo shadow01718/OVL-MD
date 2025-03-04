@@ -1,12 +1,12 @@
 const dotenv = require('dotenv');
 dotenv.config();
 module.exports = {
-  PREFIXE: process.env.PREFIXE || "",
+  PREFIXE: process.env.PREFIXE || ".",
   NOM_OWNER: process.env.NOM_OWNER || "Ainz",
-  NUMERO_OWNER: process.env.NUMERO_OWNER || "",
-  MODE: process.env.MODE || "public",
+  NUMERO_OWNER: process.env.NUMERO_OWNER || "24105376560",
+  MODE: process.env.MODE || "private",
   MENU: process.env.MENU || "https://i.ibb.co/ynx9QcZ/image.jpg",
-  SESSION_ID: process.env.SESSION_ID || "ovl",
+  SESSION_ID: process.env.SESSION_ID || "Ovl-MD_3R41Th2M_SESSION-ID",
   LEVEL_UP: process.env.LEVEL_UP || "non",
   STICKER_PACK_NAME: process.env.STICKER_PACK_NAME || "Wa-sticker",
   STICKER_AUTHOR_NAME: process.env.STICKER_AUTHOR_NAME || "OVL-MD",
